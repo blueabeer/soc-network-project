@@ -1,18 +1,18 @@
 SOC Network Traffic Analysis Lab
 
-🎯 Objective
+ Objective
 
 This project demonstrates basic SOC skills by analyzing network traffic and detecting potential reconnaissance activity.
 
 ⸻
 
-🛠️ Tools Used
+ Tools Used
 	•	Nmap
 	•	Wireshark
 
 ⸻
 
-🚀 Steps
+ Steps
 
 1. Network Scan
 2. nmap -sS -sV 192.168.100.1
@@ -26,20 +26,20 @@ Analyzed packets to identify protocols and suspicious patterns.
 
 ⸻
 
-🔍 Findings
+ Findings
 	•	Open ports detected (HTTP, HTTPS)
 	•	TCP SYN packets observed
 	•	DNS and ARP traffic identified
 
 ⸻
 
-🚨 Detection
+ Detection
 
 The traffic indicates possible port scanning activity (reconnaissance phase).
 
 ⸻
 
-🛡️ Recommendations
+ Recommendations
 	•	Close unused ports
 	•	Use firewall
 	•	Monitor network traffic
@@ -63,7 +63,7 @@ This shows SYN scan activity.
 
 ⸻
 
-📌 Conclusion
+Conclusion
 
 This project shows how basic network monitoring can help detect early-stage cyber attacks.
 :::
