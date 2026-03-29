@@ -23,6 +23,24 @@ This project demonstrates basic cybersecurity analysis using Nmap and Wireshark 
 
 ---
 
+## Screenshots
+
+### Network Scan Results (Nmap)
+![Nmap](https://github.com/blueabeer/soc-network-project/blob/main/fg1.png)
+
+### Open Ports Identification
+![Ports](https://github.com/blueabeer/soc-network-project/blob/main/fg2.png)
+
+### Service Detection Details
+![Services](https://github.com/blueabeer/soc-network-project/blob/main/fg3.png)
+
+### Live Traffic Capture (Wireshark)
+![Traffic](https://github.com/blueabeer/soc-network-project/blob/main/fg4.png)
+
+### TCP Packet Analysis
+![TCP](https://github.com/blueabeer/soc-network-project/blob/main/fg5.png)
+
+
 ## Findings
 
 - Detected multiple open ports:
