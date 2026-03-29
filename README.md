@@ -1,58 +1,70 @@
-SOC Threat Detection System
+SOC Network Traffic Analysis Lab
 
- Overview
+🎯 Objective
 
-A simple Security Operations Center (SOC) simulation that monitors network activity and detects suspicious behavior such as port scanning and abnormal traffic.
-
-⸻
-
- Key Features
-	•	Detects port scanning attacks (Nmap)
-	•	Monitors network traffic using Wireshark
-	•	Generates alerts for suspicious activity
-	•	Analyzes logs to identify threats
+This project demonstrates basic SOC skills by analyzing network traffic and detecting potential reconnaissance activity.
 
 ⸻
 
- Tech Stack
-	•	Python
-	•	Wireshark
+🛠️ Tools Used
 	•	Nmap
-	•	Network Security Concepts
-    Why This Project
+	•	Wireshark
 
-This project demonstrates my ability to:
-	•	Analyze network traffic
-	•	Detect real-world attacks
-	•	Think like a SOC analyst
-	•	Build practical cybersecurity solutions
-
-
-   Findings
-- Detected multiple connection attempts indicating a port scanning attack
-- Observed unusual network traffic patterns during scanning activity
-- Identified open ports and potential exposed services
-
-
-## Screenshots
-
-### Network Scan Results (Nmap)
-![Nmap](https://github.com/blueabeer/soc-network-project/blob/main/fg1.png)
-
-### Open Ports Identification
-![Ports](https://github.com/blueabeer/soc-network-project/blob/main/fg2.png)
-
-### Service Detection Details
-![Services](https://github.com/blueabeer/soc-network-project/blob/main/fg3.png)
-
-### Live Traffic Capture (Wireshark)
-![Traffic](https://github.com/blueabeer/soc-network-project/blob/main/fg4.png)
-
-### TCP Packet Analysis
-![TCP](https://github.com/blueabeer/soc-network-project/blob/main/fg5.png)
 ⸻
 
-👨‍💻 Author
+🚀 Steps
 
-Abeer al anazi
-Cybersecurity Student
+1. Network Scan
+2. nmap -sS -sV 192.168.100.1
+3. 2. Packet Capture
+
+Captured network traffic using Wireshark.
+
+3. Analysis
+
+Analyzed packets to identify protocols and suspicious patterns.
+
+⸻
+
+🔍 Findings
+	•	Open ports detected (HTTP, HTTPS)
+	•	TCP SYN packets observed
+	•	DNS and ARP traffic identified
+
+⸻
+
+🚨 Detection
+
+The traffic indicates possible port scanning activity (reconnaissance phase).
+
+⸻
+
+🛡️ Recommendations
+	•	Close unused ports
+	•	Use firewall
+	•	Monitor network traffic
+
+⸻
+
+ Screenshots
+Nmap :
+https://github.com/blueabeer/soc-network-project/blob/main/fg2.png
+https://github.com/blueabeer/soc-network-project/blob/main/fg3.png
+https://github.com/blueabeer/soc-network-project/blob/main/fg4.png
+https://github.com/blueabeer/soc-network-project/blob/main/fg5.png
+
+wireshark :
+https://github.com/blueabeer/soc-network-project/blob/main/fg1.png
+
+⸻
+
+SYN Packets
+This shows SYN scan activity.
+
+⸻
+
+📌 Conclusion
+
+This project shows how basic network monitoring can help detect early-stage cyber attacks.
+:::
+
