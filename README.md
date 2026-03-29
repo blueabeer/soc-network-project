@@ -1,27 +1,38 @@
-# SOC Network Security Lab
+SOC Threat Detection System
 
-This project demonstrates basic cybersecurity analysis using Nmap and Wireshark to analyze a local network.
+ Overview
 
----
+A simple Security Operations Center (SOC) simulation that monitors network activity and detects suspicious behavior such as port scanning and abnormal traffic.
 
-## Tools Used
-- Nmap
-- Wireshark
+⸻
 
----
+ Key Features
+	•	Detects port scanning attacks (Nmap)
+	•	Monitors network traffic using Wireshark
+	•	Generates alerts for suspicious activity
+	•	Analyzes logs to identify threats
 
-## Steps Performed
+⸻
 
-1. Performed network scan:
-   nmap -sS -sV 192.168.100.1
+ Tech Stack
+	•	Python
+	•	Wireshark
+	•	Nmap
+	•	Network Security Concepts
+    Why This Project
 
-2. Identified open ports and services
+This project demonstrates my ability to:
+	•	Analyze network traffic
+	•	Detect real-world attacks
+	•	Think like a SOC analyst
+	•	Build practical cybersecurity solutions
 
-3. Captured live traffic using Wireshark
 
-4. Analyzed TCP packets and connection behavior
+   Findings
+- Detected multiple connection attempts indicating a port scanning attack
+- Observed unusual network traffic patterns during scanning activity
+- Identified open ports and potential exposed services
 
----
 
 ## Screenshots
 
@@ -39,36 +50,9 @@ This project demonstrates basic cybersecurity analysis using Nmap and Wireshark 
 
 ### TCP Packet Analysis
 ![TCP](https://github.com/blueabeer/soc-network-project/blob/main/fg5.png)
+⸻
 
+👨‍💻 Author
 
-## Findings
-
-- Detected multiple open ports:
-  - Port 21 (FTP) → Potential security risk if not secured
-  - Port 22 (SSH) → Possible brute force target
-  - Port 80 (HTTP) → Unencrypted communication
-
-- HTTP service showed redirection behavior
-  → Indicates possible insecure configuration
-
-- Wireshark analysis revealed abnormal TCP behavior:
-  - RST, ACK packets detected
-  - Frequent connection drops
-
-  → This may indicate firewall filtering or failed connections
-
----
-
-## Recommendations
-
-- Disable or secure FTP service
-- Use SSH key authentication
-- Replace HTTP with HTTPS
-- Monitor unusual TCP traffic
-- Apply firewall rules
-
----
-
-## Status
-
-Completed beginner SOC project
+Abeer al anazi
+Cybersecurity Student
