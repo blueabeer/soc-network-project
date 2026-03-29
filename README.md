@@ -23,11 +23,6 @@ This project demonstrates basic cybersecurity analysis using Nmap and Wireshark 
 
 ---
 
-## Screenshots
-![Nmap Scan](nmap/nmap_scan.png)
-![Open Ports](nmap/nmap_ports.png)
-
----
 
 ## Findings
 
