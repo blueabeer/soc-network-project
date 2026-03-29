@@ -24,9 +24,22 @@ This project demonstrates basic cybersecurity analysis using Nmap and Wireshark 
 ---
 
 ## Screenshots
+## Screenshots
 
+### Network Scan Results (Nmap)
 ![Nmap](nmap/fg1.png)
-![Wireshark](nmap/fg2.png)
+
+### Open Ports Identification
+![Ports](nmap/fg2.png)
+
+### Service Detection Details
+![Services](nmap/fg3.png)
+
+### Live Traffic Capture (Wireshark)
+![Traffic](nmap/fg4.png)
+
+### TCP Packet Analysis
+![TCP](nmap/fg5.png)
 ---
 
 ## Findings
