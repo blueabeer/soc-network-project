@@ -35,7 +35,7 @@ Analyzed packets to identify protocols and suspicious patterns.
 
  Detection
 
-The traffic indicates possible port scanning activity (reconnaissance phase).
+The observed traffic indicates port scanning activity, which is part of the reconnaissance phase of a cyber attack.
 
 ⸻
 
@@ -56,11 +56,19 @@ https://github.com/blueabeer/soc-network-project/blob/main/fg5.png
 wireshark :
 https://github.com/blueabeer/soc-network-project/blob/main/fg1.png
 
+
+This behavior is a strong indicator of reconnaissance activity.
 ⸻
 
 SYN Packets
 This shows SYN scan activity.
 
+
+
+Skills
+- Network Scanning
+- Packet Analysis
+- Basic Threat Detection
 ⸻
 
 Conclusion
